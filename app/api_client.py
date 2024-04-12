@@ -1,8 +1,7 @@
 import requests
 
 
-WORDS_API_URL = "https://wordsapiv1.p.rapidapi.com/words"
-WORDS_API_KEY = "6c684957efmsh01b3e595a2a8d89p1a2afejsn046ba767c17f"
+
 
 
 def get_random_word_and_definition():
