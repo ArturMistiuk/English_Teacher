@@ -1,5 +1,7 @@
 import telebot
-from message_handler import handle_next_word
+from message_handler import handle_next_word, handle_play
+
+
 
 
 
@@ -15,6 +17,9 @@ def start_polling():
     def handle_next(message):
         handle_next_word(message, bot)
 
+    @bot.message_handler(commands=['play'])
+    def handle_play_command(message):
+        handle_play(message, bot)
 
     bot.polling(none_stop=True)
 
