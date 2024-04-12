@@ -1,7 +1,6 @@
 import telebot
-from message_handler import handle_message, handle_next_word
+from message_handler import handle_next_word
 
-TOKEN = "7049739914:AAH9tVuxZ_F4Pv5ahCmRx7yHW738IiuP1s8"
 
 
 def start_polling():
